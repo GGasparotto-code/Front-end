@@ -1,0 +1,64 @@
+body {
+    background-color: #191a23;
+    margin-top: 5%;
+}
+
+.page-title {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+.form-container {
+    width: 300px;
+    margin: 0 auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+
+    border: 2px solid transparent;
+    border-image: linear-gradient(45deg, #3f5efb, #fc466b);
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    padding: 10px;
+    width: 100%;
+    outline: none;
+
+    border: 2px solid transparent;
+    border-image: linear-gradient(45deg, #3f5efb, #fc466b);
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+
+.form-group button {
+    padding: 10px 15px;
+    background: linear-gradient(to right, #3f5efb, #fc466b);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.form-group button:hover {
+    transform: scale(1.05);
+    transition: all linear 160ms;
+    background-color: #3498DB ;
+}
