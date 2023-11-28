@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Tabela de classificação</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" type="image/png" href="IMG/radioactive.ico" />
+
+</head>
+
+<body>
+
+  <html>
+
+  <body>
+    <img src="./IMG/InsideTheBackrooms.png">
+    <h1>Tabela de Classificação</h1>
+
+    <input type="text" id="campoNomeJogador" placeholder="digite o nome do jogador" />
+    <button onClick="criarJogador()">Adicionar novo jogador</button>
+
+    <table style="width:100%">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Vitórias</th>
+          <th>Tentativas</th>
+          <th>Mortes</th>
+          <th>Pontos</th>
+          <th colspan="5">Ações</th>
+        </tr>
+      </thead>
+      <tbody id="tabelaJogadores">
+
+      </tbody>
+    </table>
+    <button onClick="apagarJogadores()">Apagar todos os jogadores</button>
+  </body>
+
+  </html>
+
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
