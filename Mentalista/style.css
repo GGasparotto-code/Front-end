@@ -1,0 +1,71 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("./IMG/background_mentalista.png");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.imerdev-logo {
+  width: 100px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#campoChute::-webkit-outer-spin-button,
+#campoChute::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input {
+  width: 15em;
+  padding: 15px;
+  margin: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.chuteBT {
+  height: 2em;
+  width: 15em;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #8E44AD;
+  border: none;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+}
+
+.chuteBT:active {
+  background-color: #D2B4DE;
+}
+
+body>img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 350px;
+}
