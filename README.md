@@ -1,4 +1,4 @@
-# Front-end
+# 💻 Front-end
 Este repositório contém uma variedade de exemplos de aplicações front-end, incluindo projetos de calculadora, conversor de moedas, tela de feedback, entre outros. Cada projeto utiliza tecnologias como HTML, CSS e JavaScript.
 
 ## Projetos Incluídos
